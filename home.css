@@ -1,0 +1,226 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:#f4f7f6;
+}
+
+/* NAVBAR */
+.navbar{
+  background:#0f5132;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo img{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+}
+
+.logo span{
+  color:white;
+  font-weight:600;
+}
+
+.nav-link{
+  color:white !important;
+  margin-left:20px;
+}
+
+.nav-link:hover{
+  color:#ffd700 !important;
+}
+
+/* HERO */
+.hero{
+  padding:70px 0;
+}
+
+.hero h1{
+  font-size:40px;
+}
+
+.hero-contact{
+  background:white;
+  padding: 20px;
+  margin-top:0 !important;
+  border-left:5px solid green;
+}
+
+/* ABOUT */
+.about img{
+  border-radius:10px;
+}
+
+/* WHY */
+.why-box{
+  background:white;
+  padding:20px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+/* TESTIMONIALS */
+.testimonials{
+  background:#f8f9fa;
+  padding:60px 20px;
+}
+
+.test-card{
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+
+
+/* CONTACT BOX */
+.hero-contact{
+  margin-top:20px;
+  background:white;
+  padding:15px;
+  border-left:5px solid #198754;
+  border-radius:10px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+/* COURSES */
+.course-card{
+  background:white;
+  padding:20px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.cta{
+  background:#198754;
+  color:white;
+  padding:50px;
+  text-align:center;
+  margin:20px;
+  border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+  background:#0f5132;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width:768px){
+
+  .hero{
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:28px;
+  }
+
+  .why-box,
+  .course-card{
+    margin-bottom:15px;
+  }
+
+}
+
+
+
+/* ========================= */
+/* 📱 MOBILE RESPONSIVE FIX */
+/* ========================= */
+
+@media (max-width:768px){
+
+  /* NAVBAR */
+  .navbar{
+    padding:10px 20px;
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .nav-links{
+    flex-direction:column;
+    width:100%;
+    gap:15px;
+    margin-top:10px;
+  }
+
+  /* HERO */
+  .hero{
+    padding:40px 15px;
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:26px;
+  }
+
+  .hero img{
+    margin-top:20px;
+  }
+
+  .hero-contact{
+    text-align:left;
+  }
+
+  /* ABOUT */
+  .about{
+    text-align:center;
+  }
+
+  .about img{
+    margin-bottom:20px;
+  }
+
+  /* WHY SECTION */
+  .why-box{
+    margin-bottom:20px;
+  }
+
+  /* TESTIMONIALS */
+  .test-card{
+    margin-bottom:20px;
+  }
+
+  /* COURSES */
+  .course-card{
+    margin-bottom:20px;
+  }
+
+  /* CTA */
+  .cta-section{
+    margin:20px;
+    padding:40px 15px;
+  }
+
+}
+
+/* 📱 EXTRA SMALL DEVICES */
+@media (max-width:480px){
+
+  .logo span{
+    font-size:16px;
+  }
+
+  .hero h1{
+    font-size:22px;
+  }
+
+}
